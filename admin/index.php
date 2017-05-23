@@ -1,9 +1,12 @@
 <?php 
 
+function {
+a+b};
+
 require_once('../inc/autoload.php');
 $core = new Core();
 $core->run();
-/*sgggsd
+/*
 if (Login::isLogged(Login::$_login_admin)) {
 	
 	if(Url::getPage())
