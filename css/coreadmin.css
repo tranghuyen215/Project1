@@ -1,0 +1,26 @@
+body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video{ margin:0; padding: 0;border: 0;vertical-align: baseline;}
+
+body { background-image: url('background2.jpg'); font-family:"Helveticaneue","sans-serif" }
+
+.header_bottom {height: 60px; background: #399bff;width: 100%;color: #fff;z-index: 900;position: fixed;}
+.left-col { width: 250px; height: 60px;background: rgba(0,0,0,0.14);color: #fff;position: relative;padding: 19px 0 0 0;float: left;text-align: center; }
+
+#header_in,h1,#footer_in {text-align: center;padding: 19px 10px 0 0}
+#header_in {float: right}
+
+.sidebar { width: 250px; position: absolute;top:60px; left: 0;font-family: 'Montserrat',sans-serif;background: #3d464d;font-size: 13;font-weight: normal;z-index: 500;color: rgba(255,255,255,0.8);display: block !important }
+.sidebar-panel {background: none; padding: 0px 20px 0px 20px;border: none; border-bottom:  1px solid rgba(255,255,255,0.1);padding: 15px 0;}
+.sidebar li a {text-transform: uppercase; font-size:13px;color: rgba(255,255,255,0.6);display: block; padding: 9px 20px 9px 54px;margin-left: -20px;margin-right: -20px;position: relative;text-decoration: none}
+.slidebar li:hover {background: #000}
+.nav {list-style: none}
+.sidetitle { color: rgba(255,255,255,0.5); font-size: 10px; padding: 0;margin: 0 0 5px 3px; letter-spacing: 0.4px }
+.content {padding-left: 30px; padding-right: 30px; padding-top: 80px; margin-left: 250px;background: #f5f5f5}
+.tbl_repeat { margin: auto; }
+.tbl_repeat th, .tbl_repeat td{ text-align: center; padding: 10px 20px}
+.content p  {text-align: center;}
+.content h1 {margin-bottom: 30px}
+.content form { text-align: center; }
+form table {display: inline-block;}
+.paging li{ list-style: none;float: left;padding: 20px };
+.paging li a{ display: block;text-align: center; }
+tbody tr td  img { margin: 0 auto }
